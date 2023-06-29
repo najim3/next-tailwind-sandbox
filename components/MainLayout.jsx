@@ -43,11 +43,11 @@ const MainLayout = ({ children }) => {
             </li>
             <li className='flex justify-start items-center hover:bg-blue-200  hover:text-blue-800 rounded-xl p-2'>
               <SiHelpscout className='mr-2' />
-              <Link href='/'>About Us</Link>
+              <Link href='/about-us'>About Us</Link>
             </li>
             <li className='flex justify-start items-center hover:bg-blue-200  hover:text-blue-800 rounded-xl p-2'>
               <FiPhoneCall className='mr-2' />
-              <Link href='/'>Contact Us</Link>
+              <Link href='/contact-us'>Contact Us</Link>
             </li>
           </ul>
         </aside>
